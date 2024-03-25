@@ -25,7 +25,7 @@ int contabilizaNosArvMF(tipo_arv_MF**);//ok
 int ContabilizaValores(tipo_arv_MF**);//ok
 int ContabilizaFolhas(tipo_arv_MF**);//ok
 int AlturaArvMF(tipo_arv_MF*);//ok
-void ImprimeNivelArvMF(tipo_arv_MF*, int);//falta
+void ImprimeNivelArvMF(tipo_arv_MF*, int);//ok
 int BuscaMaiorVlArvMF(tipo_arv_MF**);//ok
 int BuscaMenorVlArvMF(tipo_arv_MF **);//ok
 int Ehfolha(tipo_arv_MF*);//ok
