@@ -9,23 +9,27 @@
 struct est_arv_mult_filhos
 {
     int valores[t];
-    struct est_arv_mult_filhos **filhos [t + 1];
+    struct est_arv_mult_filhos *filhos [t + 1];
     int contador;
     
 };
 typedef struct est_arv_mult_filhos tipo_arv_MF;
 
 tipo_arv_MF *AlocaNo(int);
-void InsereArvMF(tipo_arv_MF**, int);
-int BuscaArvMF(tipo_arv_MF*, int);
-void PercusoPreOrdemMF(tipo_arv_MF*);
-void PercusoOrdemMF(tipo_arv_MF*);
-void PercusoPosOrdemMF(tipo_arv_MF*);
-int contabilizaNosArvMF(tipo_arv_MF*);
-int AlturaArvMF(tipo_arv_MF*);
-void ImprimeNivelArvMF(tipo_arv_MF*);
-int BuscaMaiorVlArvMF(tipo_arv_MF*);
-int BuscaMenorVlArvMF(tipo_arv_MF*);
+void InsereArvMF(tipo_arv_MF**, int);//ok
+int BuscaArvMF(tipo_arv_MF**, int);//ok
+void PercusoPreOrdemMF(tipo_arv_MF**);//ok
+void PercusoOrdemMF(tipo_arv_MF**);//ok
+void PercusoPosOrdemMF(tipo_arv_MF**);//ok
+int contabilizaNosArvMF(tipo_arv_MF**);//ok
+int ContabilizaValores(tipo_arv_MF**);//ok
+int ContabilizaFolhas(tipo_arv_MF**);//ok
+int AlturaArvMF(tipo_arv_MF*);//ok
+void ImprimeNivelArvMF(tipo_arv_MF*, int);//falta
+int BuscaMaiorVlArvMF(tipo_arv_MF**);//ok
+int BuscaMenorVlArvMF(tipo_arv_MF **);//ok
+int Ehfolha(tipo_arv_MF*);//ok
+void RemoveArvFolha(tipo_arv_MF**, int);//falta
 
 
 
