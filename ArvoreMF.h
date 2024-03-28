@@ -29,7 +29,7 @@ void ImprimeNivelArvMF(tipo_arv_MF*, int);//ok
 int BuscaMaiorVlArvMF(tipo_arv_MF**);//ok
 int BuscaMenorVlArvMF(tipo_arv_MF **);//ok
 int Ehfolha(tipo_arv_MF*);//ok
-void RemoveArvFolha(tipo_arv_MF**, int);//falta
+void RemoveArvMF(tipo_arv_MF**, int);//falta
 
 
 
